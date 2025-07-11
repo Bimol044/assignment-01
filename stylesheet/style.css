@@ -254,7 +254,7 @@ textarea {
 
 }
 
-h1.touch-title {
+.touch-title {
     font-size: 97px;
     font-weight: 700;
 }
@@ -264,6 +264,7 @@ textarea {
     padding: 21px 0px;
     font-size: 20px;
     padding-left: 6px;
+    border: 1px solid rgba(129, 146, 186, 100%)
 }
 
 label {
@@ -271,7 +272,7 @@ label {
     margin: 9px -2px;
 }
 
-h1.touch-title {
+.touch-title {
     font-size: 97px;
     font-weight: 700;
 }
@@ -288,7 +289,7 @@ h1.touch-title {
 }
 
 .right-side-touch {
-    width: 44%;
+    width: 50%;
 }
 
 input.btn-primary {
