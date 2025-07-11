@@ -32,30 +32,22 @@
 }
 
 /* All botton style */
-.btn-primary {
-    color: white;
-    background-color: #4E47FF;
-    padding: 12px 36px;
-    border-radius: 10px;
-    font-weight: 700;
-    border: none;
-}
 
 /* Hover button style */
 .my-button {
     background-color: #4E47FF;
     color: white;
-    padding: 12px 24px;
+    padding: 12px 36px;
     border: none;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 700;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .my-button:hover {
-    background-color: white;
-    color: #3498db;
+    background-color: yellow;
+    color: black;
     border: 1px solid #3498db;
 }
 
@@ -385,11 +377,6 @@ textarea {
     cursor: pointer;
     width: 100%;
 }
-
-/* form textarea {
-    padding: 10px;
-    width: 100%;
-} */
 
 input,
 textarea {
