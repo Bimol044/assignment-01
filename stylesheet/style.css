@@ -11,10 +11,24 @@
         "wdth" 100;
 }
 
+
+
 /* shere style  */
 .container {
     width: 1240px;
     margin: auto;
+}
+
+.bg {
+    background-color: aliceblue;
+}
+
+.h-color {
+    color: rgba(25, 24, 32, 100%)
+}
+
+.sub-color {
+    color: rgba(25, 24, 32, 50%);
 }
 
 /* All botton style */
@@ -51,10 +65,269 @@
     font-weight: 700;
     text-transform: capitalize;
     width: 1137px;
-    margin-bottom: 37px;
+    margin: 20px auto;
 }
 
 .bannar-section {
     text-align: center;
     padding: 158px 0px 200px 0px;
+}
+
+/* action section  */
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 0px;
+}
+
+.left-side-titlel {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.left-side-subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    width: 415px;
+    margin: 23px 0px;
+
+}
+
+.right-side img {
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+
+/* product user section*/
+.product-user-box {
+    background-color: rgba(78, 71, 255, 10%);
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-title {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-number {
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+
+.product-user-acivitis {
+    color: rgba(00, 00, 00, 50%);
+    font-size: 20px;
+
+}
+
+/* fedback section */
+.fedback-section {
+    margin-top: 100px;
+}
+
+.fadback-container {
+    display: flex;
+    gap: 20px;
+}
+
+.fedback {
+    border-radius: 10px;
+    background-color: white;
+    width: 385px;
+    padding: 42px;
+}
+
+.user-fedback-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.fedback.sub-color {
+    width: 270px;
+    line-height: 24px;
+    margin: 11px 0px;
+}
+
+
+.user-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.user-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fedback-title.h-color {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fedback img {
+    margin-right: 1px;
+}
+
+.fedback-sub-title.h-color {
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.fedback-description.sub-color {
+    margin-bottom: 20px;
+}
+
+.fedback-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fedback-user-name h5 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.fedback-profil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.fedback-user-name p {
+    font-size: 15px;
+}
+
+/* card section */
+.card-section {
+    padding: 71px 150px;
+    text-align: center;
+    background-color: white;
+    margin-top: 137px;
+    border-radius: 14px;
+}
+
+.card-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card-sub-title.sub-color {
+    margin-bottom: 20px;
+}
+
+.card-image {
+    margin-top: 20px;
+}
+
+.card-image img {
+    border-radius: 48px;
+}
+
+/* form section */
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+h1.touch-title {
+    font-size: 97px;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    padding: 21px 0px;
+    font-size: 20px;
+    padding-left: 6px;
+}
+
+label {
+    font-size: 20px;
+    margin: 9px -2px;
+}
+
+h1.touch-title {
+    font-size: 97px;
+    font-weight: 700;
+}
+
+.touch-section {
+    display: flex;
+    gap: 147px;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.left-touch {
+    width: 476px;
+}
+
+.right-side-touch {
+    width: 44%;
+}
+
+input.btn-primary {
+    margin-top: 24px;
+}
+
+/* footer-section */
+.footer-title {
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(78, 72, 525, 100%);
+}
+
+.footers-description {
+    color: rgba(137, 135, 161, 100%);
+    width: 524px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-about {
+    display: flex;
+    gap: 85px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-about li a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 100%);
+}
+
+.footer-section {
+    width: 522px;
+    margin: auto;
+    padding: 150px 100px;
+}
+
+.footer-bg {
+    background-color: white;
 }
