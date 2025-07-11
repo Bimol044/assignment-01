@@ -41,6 +41,24 @@
     border: none;
 }
 
+/* Hover button style */
+.my-button {
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.my-button:hover {
+    background-color: white;
+    color: #3498db;
+    border: 1px solid #3498db;
+}
+
 /* shere style end */
 .top-nav {
     display: flex;
@@ -331,4 +349,52 @@ input.btn-primary {
 
 .footer-bg {
     background-color: white;
+}
+
+/* new code */
+.touch-section {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.right-side-touch {
+    flex: 1;
+    min-width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+form label,
+textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+.input-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* form textarea {
+    padding: 10px;
+    width: 100%;
+} */
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
 }
